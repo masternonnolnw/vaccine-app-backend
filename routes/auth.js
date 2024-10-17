@@ -77,7 +77,7 @@ const { protect } = require("../middleware/auth");
 *       500:
 *         description: Some server error
 */
-//router.post("/register", register);
+router.post("/register", register);
 
 /**
 * @swagger
